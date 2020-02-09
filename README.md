@@ -1,6 +1,6 @@
 # Personal-Notes-on-Algorithms
 
-[Introduction to Algorithms notes](https://github.com/HeizerSpider/Personal-Notes-on-Algorithms/blob/master/Algo_notes.md), 
+Compilation of notes for Basic Algorithms, adapted from various sources: [Introduction to Algorithms notes](https://github.com/HeizerSpider/Personal-Notes-on-Algorithms/blob/master/Algo_notes.md)
 
 Includes the following:
 1) Complexity, Asymptotic Notation and Document Distance
