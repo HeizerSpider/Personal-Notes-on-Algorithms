@@ -1,6 +1,8 @@
+from random import randint
+
 def quicksort(dataset, first, last):
     if first<last:
-        pivotIdx= partition(datset, first, last)
+        pivotIdx= partition(dataset, first, last)
         quicksort(dataset, first, pivotIdx-1)
         quicksort(dataset, pivotIdx+1, last)
 
@@ -36,3 +38,17 @@ def partition(datavalues, first, last):
 
     #return split point index
     return upper
+
+def make_list(length):
+    list = []
+    for i in range(0,length):
+        num = randint(0, 1000)
+        list.append(num)
+    return list
+        
+
+list = make_list(100)
+# list = [10, 3, 4, 1, 6, 9, 5]
+print(list)
+quicksort(list, 0 , len(list)-1)
+print(list)
