@@ -8,3 +8,4 @@ def gcd(a, b):
 
 
 print(gcd(11,10))
+print(gcd(20,8))
